@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-              APP_NAME = "register-app-pipeline"
+              APP_NAME = "application-java"
     }
 
     stages {
