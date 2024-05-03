@@ -37,7 +37,6 @@ pipeline {
                 """
                 withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
                   sh "git push "https://github.com/sami1895/gitops-register-app main"
-                }
             }
         }
       
